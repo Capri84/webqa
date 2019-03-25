@@ -11,10 +11,10 @@ Webqa project проводит 2 автотеста формы «Заполни�
     путь к директории со скачанными драйверами для вашей ОС
 
 Запуск тестов в браузере Chrome из командной строки:
-```-Dtest=VacancyFormTests -Dbrowser=chrome verify```
+```mvn -Dtest=VacancyFormTests -Dbrowser=chrome verify```
 
 Запуск тестов в браузере Firefox из командной строки:
-```-Dtest=VacancyFormTests -Dbrowser=firefox verify```
+```mvn -Dtest=VacancyFormTests -Dbrowser=firefox verify```
 
 ## Authors
 [Ирина Гендлер](https://github.com/Capri84)
