@@ -22,7 +22,7 @@ class CheckBox extends BaseRunner {
     }
 
     List<WebElement> findAllChecked(By by) {
-        return driver.findElements(by);
+        return app.getDriver().findElements(by);
     }
 
     void uncheckAllState(List<WebElement> checkBoxes) {

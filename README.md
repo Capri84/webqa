@@ -12,10 +12,8 @@ Webqa project также тестирует страницу https://www.tinkoff
 !!! Для корректной работы необходимо добавить в системную переменную PATH
     путь к директории со скачанными драйверами для вашей ОС
 
-Запуск тестов ДЗ 7 в браузере Chrome из командной строки:
+Запуск тестов в браузере Chrome из командной строки:
 ```mvn -Dtest=WindowHandleTests -Dbrowser=chrome verify```
-
-Запуск тестов ДЗ 6 в браузере Chrome из командной строки:
 ```mvn -Dtest=VacancyFormTests -Dbrowser=chrome verify```
 
 ## Authors
